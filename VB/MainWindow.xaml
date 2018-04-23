@@ -1,0 +1,10 @@
+﻿<dx:DXWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"          
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxeud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon" x:Class="WpfReportDesignerDataSourceWizard.MainWindow"
+        Title="MainWindow" Height="651" Width="1369.1">
+    <Grid>   
+    </Grid>
+</dx:DXWindow>
