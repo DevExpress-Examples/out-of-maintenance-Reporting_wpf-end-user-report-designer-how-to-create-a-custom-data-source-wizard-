@@ -1,0 +1,9 @@
+﻿<dx:DXWindow x:Class="WpfReportDesignerDataSourceWizard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"          
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxeud="http://schemas.devexpress.com/winfx/2008/xaml/reports/userdesigner"
+        Title="MainWindow" Height="651" Width="1369.1">
+    <Grid>
+    </Grid>
+</dx:DXWindow>
