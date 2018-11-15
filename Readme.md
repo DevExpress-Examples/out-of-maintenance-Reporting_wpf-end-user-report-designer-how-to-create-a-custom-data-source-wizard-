@@ -1,3 +1,24 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CusomDataSourceWizardControl.xaml](./CS/CusomDataSourceWizardControl.xaml)
+* [CusomDataSourceWizardControl.xaml.cs](./CS/CusomDataSourceWizardControl.xaml.cs)
+* [ConnectionWrapper.cs](./CS/Custom Wizard/Data Wrapper Classes/ConnectionWrapper.cs) (VB: [ConnectionWrapper.vb](./VB/Custom Wizard/Data Wrapper Classes/ConnectionWrapper.vb))
+* [DataSourceWrapper.cs](./CS/Custom Wizard/Data Wrapper Classes/DataSourceWrapper.cs) (VB: [DataSourceWrapper.vb](./VB/Custom Wizard/Data Wrapper Classes/DataSourceWrapper.vb))
+* [QueryWrapper.cs](./CS/Custom Wizard/Data Wrapper Classes/QueryWrapper.cs) (VB: [QueryWrapper.vb](./VB/Custom Wizard/Data Wrapper Classes/QueryWrapper.vb))
+* [EditDataSourceWindow.xaml](./CS/Custom Wizard/EditDataSourceWindow.xaml) (VB: [EditDataSourceWindow.xaml.vb](./VB/Custom Wizard/EditDataSourceWindow.xaml.vb))
+* [EditDataSourceWindow.xaml.cs](./CS/Custom Wizard/EditDataSourceWindow.xaml.cs) (VB: [EditDataSourceWindow.xaml.vb](./VB/Custom Wizard/EditDataSourceWindow.xaml.vb))
+* [EditQueryWindow.xaml](./CS/Custom Wizard/EditQueryWindow.xaml) (VB: [EditQueryWindow.xaml](./VB/Custom Wizard/EditQueryWindow.xaml))
+* [EditQueryWindow.xaml.cs](./CS/Custom Wizard/EditQueryWindow.xaml.cs) (VB: [EditQueryWindow.xaml](./VB/Custom Wizard/EditQueryWindow.xaml))
+* [CustomCloseWizardEventArgs.cs](./CS/Custom Wizard/Misc/CustomCloseWizardEventArgs.cs) (VB: [CustomCloseWizardEventArgs.vb](./VB/Custom Wizard/Misc/CustomCloseWizardEventArgs.vb))
+* [WizardCloseMode.cs](./CS/Custom Wizard/Misc/WizardCloseMode.cs) (VB: [WizardCloseMode.vb](./VB/Custom Wizard/Misc/WizardCloseMode.vb))
+* [WizardDataModel.cs](./CS/Custom Wizard/WizardDataModel.cs) (VB: [WizardDataModel.vb](./VB/Custom Wizard/WizardDataModel.vb))
+* [WizardDialog.xaml](./CS/Custom Wizard/WizardDialog.xaml) (VB: [WizardDialog.xaml](./VB/Custom Wizard/WizardDialog.xaml))
+* [WizardDialog.xaml.cs](./CS/Custom Wizard/WizardDialog.xaml.cs) (VB: [WizardDialog.xaml](./VB/Custom Wizard/WizardDialog.xaml))
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
+* [Resources.xaml](./CS/Resources.xaml) (VB: [Resources.xaml](./VB/Resources.xaml))
+<!-- default file list end -->
 # WPF End-User Report Designer - How to create a custom data source wizard
 
 
