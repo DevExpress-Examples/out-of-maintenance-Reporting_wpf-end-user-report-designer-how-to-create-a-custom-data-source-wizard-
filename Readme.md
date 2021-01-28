@@ -3,8 +3,8 @@
 
 * [CusomDataSourceWizardControl.xaml](./CS/CusomDataSourceWizardControl.xaml) (VB: [CusomDataSourceWizardControl.xaml](./VB/CusomDataSourceWizardControl.xaml))
 * [CusomDataSourceWizardControl.xaml.cs](./CS/CusomDataSourceWizardControl.xaml.cs) (VB: [CusomDataSourceWizardControl.xaml.vb](./VB/CusomDataSourceWizardControl.xaml.vb))
-* [ConnectionWrapper.cs](./CS/Custom Wizard/Data Wrapper Classes/ConnectionWrapper.cs) (VB: [ConnectionWrapper.vb](./VB/Custom Wizard/Data Wrapper Classes/ConnectionWrapper.vb))
-* [DataSourceWrapper.cs](./CS/Custom Wizard/Data Wrapper Classes/DataSourceWrapper.cs) (VB: [DataSourceWrapper.vb](./VB/Custom Wizard/Data Wrapper Classes/DataSourceWrapper.vb))
+* [ConnectionWrapper.cs](./CS/Custom%20Wizard/Data%20Wrapper%20Classes/ConnectionWrapper.cs) (VB: [ConnectionWrapper.vb](./VB/Custom%20Wizard/Data%20Wrapper Classes/ConnectionWrapper.vb))
+* [DataSourceWrapper.cs](./CS/Custom%20Wizard/Data%20Wrapper%20Classes/DataSourceWrapper.cs) (VB: [DataSourceWrapper.vb](./VB/Custom%20Wizard/Data%20Wrapper Classes/DataSourceWrapper.vb))
 * [QueryWrapper.cs](./CS/Custom Wizard/Data Wrapper Classes/QueryWrapper.cs) (VB: [QueryWrapper.vb](./VB/Custom Wizard/Data Wrapper Classes/QueryWrapper.vb))
 * [EditDataSourceWindow.xaml](./CS/Custom Wizard/EditDataSourceWindow.xaml) (VB: [EditDataSourceWindow.xaml](./VB/Custom Wizard/EditDataSourceWindow.xaml))
 * [EditDataSourceWindow.xaml.cs](./CS/Custom Wizard/EditDataSourceWindow.xaml.cs) (VB: [EditDataSourceWindow.xaml.vb](./VB/Custom Wizard/EditDataSourceWindow.xaml.vb))
