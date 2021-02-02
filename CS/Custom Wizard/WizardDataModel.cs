@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -47,7 +47,6 @@ namespace CustomDataSourceWizard {
             return SelectedDataSource.CreateSqlDataSource();
         }
 
-        #region Data Source Add / Edit / Remove
         public void InitDataSource() {
             DataSourceWrapper dsw = DataSourceWrapper.Create();
             IEditableObject editableObject = dsw;
@@ -108,8 +107,6 @@ namespace CustomDataSourceWizard {
         public bool CanRemoveSelectedDataSource() {
             return DataSources.Count > 0 && SelectedDataSource != null;
         }
-        #endregion
-        #region Query Add / Edit / Remove
         public void AddQuery() {
             var qw = QueryWrapper.Create();
             IEditableObject editableObject = qw;
@@ -171,8 +168,6 @@ namespace CustomDataSourceWizard {
         public bool CanRemoveQuery() {
             return SelectedDataSource != null && SelectedDataSource.SelectedQuery != null;
         }
-        #endregion
-        #region Test data source initialization
         private void InitTestData() {
             this.DataConnections = new List<ConnectionWrapper>();
             this.DataSources = new ObservableCollection<DataSourceWrapper>();
@@ -233,8 +228,6 @@ namespace CustomDataSourceWizard {
         private void AddInvalidConnection() {
             ConnectionWrapper cw = InitConnection("InvalidConnection", new CustomStringConnectionParameters("invalidConnection"));
         }
-        #endregion
-        #region View Model Edit & Cancel methods
         public void DoCancelEdit() {
             ((IEditableObject)this).CancelEdit();
             OnEndEditing(new CustomClosingEventArgs(CloseMode.Cancel));
@@ -249,8 +242,6 @@ namespace CustomDataSourceWizard {
         public virtual bool CanDoEndEdit() {
             return SelectedDataSource != null && SelectedDataSource.SelectedQuery != null;
         }
-        #endregion
-        #region IEditableObject Members
         void IEditableObject.BeginEdit() {
             Cache = ViewModelSource.Create(() => new WizardDataModel());
             foreach(var info in CurrentModel.GetType().GetProperties()) {
@@ -273,7 +264,6 @@ namespace CustomDataSourceWizard {
         void IEditableObject.EndEdit() {
             Cache = default(WizardDataModel);
         }
-        #endregion
     }
 }
 

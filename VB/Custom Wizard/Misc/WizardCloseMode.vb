@@ -4,8 +4,8 @@ Imports System.Linq
 Imports System.Text
 
 Namespace CustomDataSourceWizard
-    Public Enum CloseMode
-        Apply
-        Cancel
-    End Enum
+	Public Enum CloseMode
+		Apply
+		Cancel
+	End Enum
 End Namespace

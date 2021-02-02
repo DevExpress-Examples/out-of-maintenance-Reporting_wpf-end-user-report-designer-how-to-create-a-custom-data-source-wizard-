@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using DevExpress.DataAccess.Sql;
@@ -48,7 +48,6 @@ namespace CustomDataSourceWizard {
         public virtual bool CanEndEdit() {
             return true;
         }
-        #region IEditableObject Members
         void IEditableObject.BeginEdit() {
             Cache = ViewModelSource.Create(() => new DataSourceWrapper());
             foreach(var info in CurrentModel.GetType().GetProperties()) {
@@ -69,7 +68,6 @@ namespace CustomDataSourceWizard {
         void IEditableObject.EndEdit() {
             Cache = default(DataSourceWrapper);
         }
-        #endregion
         void qw_EndEditing(object sender, CustomClosingEventArgs e) {
             if(e.CloseMode == CloseMode.Cancel)
                 return;
@@ -81,7 +79,6 @@ namespace CustomDataSourceWizard {
             Queries.Remove(SelectedQuery);
         }
 
-        #region IDataErrorInfo Members
         string IDataErrorInfo.Error {
             get { return ((IDataErrorInfo)this)["Name"] + ((IDataErrorInfo)this)["Connection"]; }
         }
@@ -101,7 +98,6 @@ namespace CustomDataSourceWizard {
                 return errorMessage;
             }
         }
-        #endregion
         string ValidateConnection() {
             if(Connection == null || string.IsNullOrEmpty(Connection.ConnectionName) || Connection.ConnectionParameters == null)
                 return "You cannot leave the Connection empty";

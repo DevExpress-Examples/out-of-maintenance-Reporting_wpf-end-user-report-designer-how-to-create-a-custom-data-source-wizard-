@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using DevExpress.DataAccess.Sql;
 using DevExpress.Mvvm.POCO;
@@ -32,7 +32,6 @@ namespace CustomDataSourceWizard {
         public virtual bool CanEndEdit() {
             return true;
         }
-        #region IEditableObject Members
         void IEditableObject.BeginEdit() {
             Cache = ViewModelSource.Create(() => new QueryWrapper());
             foreach(var info in CurrentModel.GetType().GetProperties()) {
@@ -53,9 +52,7 @@ namespace CustomDataSourceWizard {
         void IEditableObject.EndEdit() {
             Cache = default(QueryWrapper);
         }
-        #endregion
 
-        #region IDataErrorInfo Members
         string IDataErrorInfo.Error {
             get { return ((IDataErrorInfo)this)["Name"] + ((IDataErrorInfo)this)["Sql"]; }
         }
@@ -75,7 +72,6 @@ namespace CustomDataSourceWizard {
             }
         }
 
-        #endregion
 
         string ValidateSql() {
             if(string.IsNullOrEmpty(this.Sql)) {

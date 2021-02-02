@@ -7,13 +7,13 @@ Imports DevExpress.Mvvm.POCO
 
 Namespace CustomDataSourceWizard
 
-    Public Class ConnectionWrapper
-        Protected Sub New()
-        End Sub
-        Public Shared Function Create() As ConnectionWrapper
-            Return ViewModelSource.Create(Function() New ConnectionWrapper())
-        End Function
-        Public Overridable Property ConnectionName() As String
-        Public Overridable Property ConnectionParameters() As DataConnectionParametersBase
-    End Class
+	Public Class ConnectionWrapper
+		Protected Sub New()
+		End Sub
+		Public Shared Function Create() As ConnectionWrapper
+			Return ViewModelSource.Create(Function() New ConnectionWrapper())
+		End Function
+		Public Overridable Property ConnectionName() As String
+		Public Overridable Property ConnectionParameters() As DataConnectionParametersBase
+	End Class
 End Namespace

@@ -13,14 +13,14 @@ Imports System.Windows.Navigation
 Imports System.Windows.Shapes
 
 Namespace WpfReportDesignerDataSourceWizard
-    ''' <summary>
-    ''' Interaction logic for CusomDataSourceWizardControl.xaml
-    ''' </summary>
-    Partial Public Class CusomDataSourceWizardControl
-        Inherits UserControl
+	''' <summary>
+	''' Interaction logic for CusomDataSourceWizardControl.xaml
+	''' </summary>
+	Partial Public Class CusomDataSourceWizardControl
+		Inherits UserControl
 
-        Public Sub New()
-            InitializeComponent()
-        End Sub
-    End Class
+		Public Sub New()
+			InitializeComponent()
+		End Sub
+	End Class
 End Namespace

@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 using System.Windows.Input;
 using CustomDataSourceWizard;
 using DevExpress.DataAccess.Sql;
@@ -14,8 +14,7 @@ namespace WpfReportDesignerDataSourceWizard {
         public static DependencyProperty RunDataSourceWizardCommandProperty;
 
         static MainWindow() {
-            DependencyPropertyRegistrator<MainWindow>.New()
-                .Register(x => x.RunDataSourceWizardCommand, out RunDataSourceWizardCommandProperty, null);
+            DependencyPropertyRegistrator<MainWindow>.New().Register("RunDataSourceWizardCommand", out RunDataSourceWizardCommandProperty, (ICommand)null);
         }
 
         public ICommand RunDataSourceWizardCommand {

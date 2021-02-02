@@ -13,12 +13,12 @@ Imports System.Windows.Shapes
 Imports DevExpress.Xpf.Core
 
 Namespace CustomDataSourceWizard
-    ''' <summary>
-    ''' Interaction logic for ModifyDataSourceWindow.xaml
-    ''' </summary>
-    Partial Public Class EditDataSourceWindow
-        Public Sub New()
-            InitializeComponent()
-        End Sub
-    End Class
+	''' <summary>
+	''' Interaction logic for ModifyDataSourceWindow.xaml
+	''' </summary>
+	Partial Public Class EditDataSourceWindow
+		Public Sub New()
+			InitializeComponent()
+		End Sub
+	End Class
 End Namespace
