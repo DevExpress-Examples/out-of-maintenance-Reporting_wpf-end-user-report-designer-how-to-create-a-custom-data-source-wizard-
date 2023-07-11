@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 Imports System.ComponentModel
 Imports DevExpress.DataAccess.Sql
 Imports DevExpress.Mvvm.POCO
